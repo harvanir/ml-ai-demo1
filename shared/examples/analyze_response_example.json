@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "total_rows": 100,
+    "total_columns": 5,
+    "numeric_columns": ["price", "quantity", "rating"]
+  },
+  "anomalies": [
+    {
+      "column": "price",
+      "value": 999.99,
+      "index": 42,
+      "z_score": 3.5,
+      "is_outlier": true
+    }
+  ],
+  "ai_summary": "An anomaly was detected in the price column with a significantly high value compared to other prices in the dataset."
+}

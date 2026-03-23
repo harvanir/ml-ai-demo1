@@ -1,0 +1,247 @@
+# =============================================================================
+# ML-AI-Demo1 .gitignore
+# =============================================================================
+# This file specifies intentionally untracked files to ignore in Git
+# Organized by category for better maintainability
+
+# =============================================================================
+# Python
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Frameworks
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+# According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+# However, in case of collaboration, if having platform-specific dependencies or dependencies
+# having no cross-platform support, pipenv may install dependencies that don't work, or not
+# install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env.local
+.env.production
+.env.staging
+.env.example
+
+# Type checkers
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# IDEs
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# Translations
+*.mo
+*.pot
+
+# Logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =============================================================================
+# IDE & Editors
+# =============================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# =============================================================================
+# Operating Systems
+# =============================================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+.fuse_hidden*
+
+# =============================================================================
+# Logs & Temporary Files
+# =============================================================================
+
+# General logs (additional to Python logs above)
+logs/
+log.txt
+error.log
+app.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# =============================================================================
+# Security & Secrets
+# =============================================================================
+
+# API Keys & Secrets
+*.key
+*.pem
+secrets.json
+config/secrets.py
+
+# =============================================================================
+# Data & Models (Optional - Uncomment as needed)
+# =============================================================================
+
+# Large data files
+# *.csv
+# *.xlsx
+# *.json
+sample_data/large_sample.csv
+
+# ML Model files
+# *.pkl
+# *.joblib
+# *.h5
+# *.pb
+# models/
+# checkpoints/
+
+# =============================================================================
+# Development Tools
+# =============================================================================
+
+# Node.js (if used)
+# node_modules/
+# npm-debug.log*
+
+# Docker
+# .dockerignore
+
+# Terraform
+# terraform.tfstate*

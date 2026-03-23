@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "summary": {
+      "type": "object",
+      "properties": {
+        "total_rows": {
+          "type": "integer"
+        },
+        "total_columns": {
+          "type": "integer"
+        },
+        "numeric_columns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": ["total_rows", "total_columns", "numeric_columns"]
+    },
+    "anomalies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "column": {
+            "type": "string"
+          },
+          "value": {
+            "type": "number"
+          },
+          "index": {
+            "type": "integer"
+          },
+          "z_score": {
+            "type": "number"
+          },
+          "is_outlier": {
+            "type": "boolean"
+          }
+        },
+        "required": ["column", "value", "index", "is_outlier"]
+      }
+    },
+    "ai_summary": {
+      "type": "string"
+    }
+  },
+  "required": ["summary", "anomalies"]
+}

@@ -1,0 +1,27 @@
+name,price,quantity,rating,category,sales
+Product A,10.99,100,4.5,Electronics,150
+Product B,15.50,50,4.0,Electronics,80
+Product C,999.99,1,5.0,Electronics,5
+Product D,20.00,75,3.8,Books,120
+Product E,12.49,200,4.2,Books,300
+Product F,25.99,30,4.7,Electronics,45
+Product G,8.99,150,3.9,Books,200
+Product H,45.00,20,4.8,Electronics,25
+Product I,18.50,90,4.1,Books,135
+Product J,32.99,40,4.3,Electronics,60
+Product K,14.99,120,3.7,Books,180
+Product L,75.00,15,4.9,Electronics,20
+Product M,9.99,180,4.0,Books,270
+Product N,55.99,25,4.6,Electronics,35
+Product O,22.49,60,4.4,Books,90
+Product P,89.99,10,5.0,Electronics,15
+Product Q,16.99,85,3.8,Books,128
+Product R,39.99,35,4.5,Electronics,50
+Product S,11.49,140,4.2,Books,210
+Product T,149.99,5,4.8,Electronics,8
+Product U,27.99,45,4.1,Books,68
+Product V,64.99,18,4.7,Electronics,28
+Product W,13.99,110,3.9,Books,165
+Product X,199.99,3,4.9,Electronics,4
+Product Y,19.99,70,4.3,Books,105
+Product Z,42.99,28,4.4,Electronics,40
